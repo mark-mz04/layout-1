@@ -1,0 +1,225 @@
+/* content */
+.content-contact {
+  text-align: center;
+}
+
+.conteiner-contact-head {
+  margin: 55px 0;
+}
+
+.contact-head {
+  background-image: url(../img/contact-us.svg);
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.contact-head-h1 {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.contact-head-text {
+  margin: 0 auto;
+  max-width: 780px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.conteiner-contact-info {
+  padding-top: 55px;
+  padding-bottom: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+
+.contact-info {
+  max-width: 300px;
+  margin-right: 100px;
+}
+
+.contact-info-img {
+  margin-top: 80px;
+  margin-bottom: 55px;
+}
+
+.contact-info-h4 {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contact-info-text {
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+
+.contact-info .li {
+  margin-bottom: 16px;
+}
+
+.contact-info .phone:first-child::before {
+  content: url(../img/phone.svg);
+  margin-right: 18px;
+}
+
+.contact-info .phone:last-child::before {
+  content: url(../img/phone.svg);
+  margin-right: 18px;
+}
+
+.contact-info .site:first-child::before {
+  content: url(../img/site.svg);
+  margin-right: 18px;
+}
+
+.contact-info .site:last-child::before {
+  content: url(../img/mail.svg);
+  margin-right: 18px;
+}
+
+.form {
+  padding: 56px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  max-width: 540px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.form .input {
+  padding: 21px 36px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.form-button {
+  width: 100%;
+  padding: 23px;
+  background: #5A98D0;
+  -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  border: none;
+}
+
+.map-conteiner {
+  width: 940px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.map-conteiner .map {
+  width: 100%;
+  height: 100%;
+}
+
+/* adaptive */
+@media (max-width: 1024px) {
+  .conteiner-contact-head {
+    margin: 50px 0 0;
+  }
+  .contact-head-text {
+    max-width: 520px;
+  }
+  .conteiner-contact-info {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 64px;
+    margin-top: 65px;
+  }
+  .conteiner-contact-info .contact-info {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
+  .conteiner-contact-info .contact-info-img {
+    margin: 0 auto;
+  }
+  .conteiner-contact-info .form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .map-conteiner {
+    width: 100%;
+    height: 392px;
+  }
+  .map-conteiner .map {
+    width: 100%;
+  }
+  .content {
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 376px) {
+  .content {
+    padding-bottom: 32px;
+  }
+  .conteiner-contact-head {
+    margin: 33px 0 0;
+  }
+  .contact-head {
+    padding: 48px 16px;
+  }
+  .contact-head-h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+  .contact-head-text {
+    font-size: 16px;
+  }
+  .conteiner-contact-info {
+    padding-bottom: 32px;
+  }
+  .conteiner-contact-info .contact-info {
+    margin-bottom: 32px;
+  }
+  .conteiner-contact-info .contact-info-img {
+    margin-bottom: 64px;
+  }
+  .map-conteiner {
+    height: 350px;
+  }
+}
+/*# sourceMappingURL=style2.css.map */
