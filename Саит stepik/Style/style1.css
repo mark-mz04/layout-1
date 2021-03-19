@@ -1,6 +1,6 @@
 * {
-  margin: 0 auto;
-  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto';
 }
 
@@ -25,5 +25,59 @@ footer {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
+}
+
+header .link {
+  padding: 16px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+          box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .link a {
+  text-decoration: none;
+}
+
+header .link .right_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .link .right_link .come_in {
+  padding: 14px 20px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: black;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  margin-right: 27px;
+}
+
+.conteiner {
+  padding: 56px 80px 100px;
+}
+
+.conteiner .search {
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.conteiner hr {
+  color: 757575;
+  opacity: 0.3;
 }
 /*# sourceMappingURL=style1.css.map */
