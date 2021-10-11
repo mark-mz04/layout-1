@@ -107,6 +107,14 @@ a {
   border: none;
 }
 
+.main-content-button:hover {
+  background: rgba(11, 66, 129, 0.877);
+}
+
+.main-content-button:active {
+  background: #5A98D0;
+}
+
 .main-img {
   width: 47%;
   position: absolute;
@@ -281,14 +289,22 @@ a {
   letter-spacing: 0.04em;
   color: #FFFFFF;
   border: none;
+  border-radius: 10px;
   opacity: 1;
 }
 
+.footer-top-conteiner-button:hover {
+  background: rgba(11, 66, 129, 0.877);
+}
+
+.footer-top-conteiner-button:active {
+  background: #5A98D0;
+}
+
 hr {
-  border: none;
-  opacity: 0.4;
-  color: #fff;
-  background-color: #fff;
+  border-style: solid;
+  border-bottom: none;
+  border-color: #c0bfbf;
 }
 
 .footer-bottom {

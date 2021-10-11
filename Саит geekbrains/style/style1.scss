@@ -83,6 +83,12 @@ a {
             border-radius: 10px;
             border: none;
         }
+        &-button:hover {
+            background: rgba(11, 66, 129, 0.877);
+        }
+        &-button:active {
+            background: #5A98D0;
+        }
     }
     &-img {
         width: 47%;
@@ -220,16 +226,22 @@ a {
             letter-spacing: 0.04em;
             color: #FFFFFF;
             border: none;
+            border-radius: 10px;
             opacity: 1;
+        }
+        &-button:hover {
+            background: rgba(11, 66, 129, 0.877);
+        }
+        &-button:active {
+            background: #5A98D0;
         }
     }
 }
 
 hr {
-    border: none;
-    opacity: 0.4;
-    color: #fff;
-    background-color: #fff;
+    border-style: solid;
+    border-bottom: none;
+    border-color: rgb(192, 191, 191);
 }
 
 .footer-bottom {
